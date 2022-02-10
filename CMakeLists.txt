@@ -17,3 +17,11 @@ GTest::gtest_main
 spdlog::spdlog
 )
 enable_testing()
+
+add_executable(test_libuvbase test_libuvbase.cc)
+target_link_libraries(test_libuvbase 
+uv
+GTest::gtest
+GTest::gtest_main
+spdlog::spdlog
+)
