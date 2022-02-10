@@ -1,0 +1,3 @@
+[submodule "3rdpart/libuv"]
+	path = 3rdpart/libuv
+	url = https://github.com/libuv/libuv.git
